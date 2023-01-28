@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
-    
+    // it is a body
     var body: some View {
         ScrollView{
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]){
